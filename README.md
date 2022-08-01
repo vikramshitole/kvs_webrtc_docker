@@ -13,7 +13,6 @@ sudo apt install docker-ce docker-ce-cli containerd.io
 ## Build docker image
 
 ```
-wget https://raw.githubusercontent.com/codingspirit/kvs_webrtc_docker/master/Dockerfile
 docker build -t iotlab/kvs-webrtc:1.0.0 .
 ```
 
